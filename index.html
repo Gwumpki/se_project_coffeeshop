@@ -61,13 +61,9 @@
         />
         <div class="header__footer">
           <div class="header__hours">
-            <div class="header__hours-item"><p>Hours:</p></div>
-            <div class="header__hours-item">
-              <p>Monday – Friday (10:00 – 19:00)</p>
-            </div>
-            <div class="header__hours-item">
-              <p>Saturday – Sunday (11:00 – 18:00)</p>
-            </div>
+            <p class="header__hours-item">Hours:</p>
+            <p class="header__hours-item">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__hours-item">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
@@ -76,13 +72,47 @@
       </header>
       <main class="content">
         <section class="recipes">
-          <div class="recipies__content">
-            <h2 class="recipes__title">Recipes</h2>
-            <h3 class="recipes__subtitle">
-              Check out some recipes we've collected for your home-brewing
-              convenience:
-            </h3>
-          </div>
+          <h2 class="recipes__title">Recipes</h2>
+          <h3 class="recipes__subtitle">
+            Being a barista is about more than just coffee, check out some
+            recipes with tea we've collected for you to try at home:
+          </h3>
+          <ul class="recipes__videos">
+            <li>
+              <iframe
+                class="recipes__iframe"
+                id="ytplayer"
+                type="text/html"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/bjsv1Ix3Bgk"
+                frameborder="0"
+                allowfullscreen
+                >How to make Matcha</iframe
+              >
+              <p>
+                <span class="video__caption">Matcha recipe</span>
+                <span class="video__caption">~11 min</span>
+              </p>
+            </li>
+            <li>
+              <iframe
+                class="recipes__iframe"
+                id="ytplayer"
+                type="text/html"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/ldiagA5UqOg"
+                frameborder="0"
+                allowfullscreen
+                >How to make a tea latte</iframe
+              >
+              <p>
+                <span class="video__caption">Tea latte recipe</span>
+                <span class="video__caption">~2 min</span>
+              </p>
+            </li>
+          </ul>
         </section>
         <section class="menu"></section>
         <section class="reservation"></section>

@@ -23,7 +23,7 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-start;
 }
 
@@ -42,7 +42,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin: 30px 80px 0 auto;
+  margin: 0;
   column-gap: 20px;
   list-style: none;
   padding: 0;
@@ -52,6 +52,7 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+  margin: 0;
 }
 
 .nav__link:hover {
@@ -109,7 +110,7 @@
   bottom: 40px;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 40px 80px 0;
   justify-content: space-between;
   box-sizing: border-box;
@@ -135,6 +136,21 @@
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px;
+}
+
+.recipes__videos {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.video__iframe {
+}
+
+.video__caption {
 }
 
 .menu {
