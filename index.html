@@ -33,13 +33,13 @@
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#menue">Menu</a>
-            </li>
-            <li>
               <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#book-a-table">Book a table</a>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">Book a table</a>
             </li>
             <li>
               <a class="nav__link" href="#contacts">Contacts</a>
@@ -71,7 +71,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <h3 class="recipes__subtitle">
             Being a barista is about more than just coffee, check out some
@@ -114,11 +114,11 @@
             </li>
           </ul>
         </section>
-        <section class="menu"></section>
-        <section class="reservation"></section>
+        <section class="menu" id="menu"></section>
+        <section class="reservation" id="reservation"></section>
         <section class="about"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts"></footer>
     </div>
   </body>
 </html>
