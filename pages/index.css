@@ -174,7 +174,8 @@
   gap: 40px;
 }
 
-.video__iframe {
+.recipes__iframe {
+  border: none;
 }
 
 .video__caption {
