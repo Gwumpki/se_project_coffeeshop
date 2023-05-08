@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Practicum Coffee Shop come join us for a good time!"
+      content="Practicum Coffee Shop come join us for a chill time while you study!"
     />
-    <meta name="keywords" content="Practicum, Coffee, Shop" />
+    <meta name="keywords" content="Practicum, coffee, shop, study" />
     <meta name="author" content="Katia Timm" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
@@ -36,10 +36,10 @@
               <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#menu">Menu</a>
+              <a class="nav__link" href="#reservation">Book a table</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservation">Book a table</a>
+              <a class="nav__link" href="#menu">Menu</a>
             </li>
             <li>
               <a class="nav__link" href="#contacts">Contacts</a>
@@ -108,8 +108,56 @@
             </li>
           </ul>
         </section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
+              <input
+                type="text"
+                placeholder="Name Surname"
+                class="form__input"
+                id="name"
+                required
+              />
+              <label class="form__label" for="guests">Number of guests *</label>
+              <input
+                type="number"
+                placeholder="1-8"
+                class="form__input"
+                min="1"
+                max="8"
+                id="guests"
+                required
+              />
+              <label class="form__label" for="datetime">Date & Time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="datetime"
+                required
+              />
+              <label class="form__label" for="email">Your email *</label>
+              <input
+                type="email"
+                placeholder="email@email.com"
+                class="form__input"
+                id="email"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label form__lable_checkbox">
+                <input type="checkbox" class="form__checkbox" />
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
-        <section class="reservation" id="reservation"></section>
         <section class="about"></section>
       </main>
       <footer class="footer" id="contacts"></footer>
