@@ -195,7 +195,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px auto 120px;
 }
 
 .reservation__title {
@@ -224,6 +223,8 @@
   display: flex;
   flex-direction: column;
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .form__label {
@@ -280,6 +281,7 @@
   width: 20px;
   height: 20px;
   margin-right: 12px;
+  margin-bottom: 120px;
 }
 
 .menu {
