@@ -218,6 +218,7 @@
   padding: 100px auto 120px;
   position: relative;
   justify-content: center;
+  flex-direction: column;
 }
 
 .form__fieldset {
