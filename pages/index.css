@@ -274,6 +274,7 @@
 
 .reservation__form_label_checkbox {
   display: flex;
+  justify-content: center;
 }
 
 .reservation__form_checkbox {
