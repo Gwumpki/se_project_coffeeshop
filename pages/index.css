@@ -266,6 +266,7 @@
   position: relative;
   justify-content: center;
   margin: 0 0 32px;
+  transition: opacity 0.5s linear;
 }
 
 .form__button:hover {
@@ -274,6 +275,7 @@
 
 .form__lable_checkbox {
   display: flex;
+  justify-content: center;
 }
 
 .form__checkbox {
