@@ -213,7 +213,6 @@
 
 .reservation__form {
   display: flex;
-  padding: 100px auto 120px;
   position: relative;
   flex-direction: column;
   max-width: 385px;
