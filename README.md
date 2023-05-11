@@ -1,4 +1,4 @@
-# Practicum Coffee Shop
+# Project name: Practicum Coffee Shop
 
 This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief.
 
@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Future plans to improve this project could be embedding a chill music playlist for studying inside the coffee shop.
