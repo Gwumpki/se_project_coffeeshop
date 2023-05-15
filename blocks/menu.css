@@ -57,6 +57,10 @@
   margin: 0 0 32px;
 }
 
+.card__list {
+  padding: 0;
+}
+
 .card__list-item {
   font-family: "Noto Serif";
   font-style: normal;
