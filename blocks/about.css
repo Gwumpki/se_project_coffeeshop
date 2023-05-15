@@ -1,3 +1,12 @@
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
 .about {
   background-color: #0a2850;
   color: #fff;
@@ -51,4 +60,10 @@
   z-index: 0;
   top: -152px;
   left: -129px;
+}
+
+.about__circle_animation_blurred {
+  background-color: #2f80ed;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+  transform: scale(1.2);
 }
