@@ -31,6 +31,8 @@
   list-style-type: none;
   justify-content: center;
   gap: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .recipes__iframe {
@@ -45,4 +47,6 @@
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+  margin: 24px 0 0;
+  padding: 0;
 }
