@@ -35,7 +35,6 @@
 
 .footer__social-heading {
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -44,8 +43,6 @@
 
 .footer__social-link {
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: white;
@@ -67,8 +64,6 @@
 
 .footer__copyright {
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   margin: 108px 0 0;
