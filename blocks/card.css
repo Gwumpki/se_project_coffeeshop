@@ -1,6 +1,5 @@
 .card {
   width: 540px;
-  margin: auto;
 }
 
 .card__title {
@@ -14,7 +13,7 @@
 
 .card__list {
   padding: 0;
-  margin: 0git;
+  margin: 0;
 }
 
 .card__list-item {
